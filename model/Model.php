@@ -11,6 +11,6 @@ class Model{
     
 }
 
-$users = Model::getUsers()
+$users = Model::getUsers() # ajouter $users dans la foreach
 
 ?>
