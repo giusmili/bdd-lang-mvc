@@ -19,14 +19,16 @@
                 <th>ID</th>
                 <th>Langage</th>
                 <th>Type</th>
+                <th>Utilisation</th>
             </tr>
         </thead>
         <tbody>  
         <?php foreach ($users as $user) : ?>
             <tr>
-                <td><?= htmlspecialchars($user['id_classement']) ?></td>
+                <td><?= htmlspecialchars($user['id_rang']) ?></td>
                 <td><?= htmlspecialchars($user['langage']) ?></td>
-                <td><?= htmlspecialchars($user['type']) ?></td>
+                <td><?= htmlspecialchars($user['description']) ?></td>
+                <td><?= htmlspecialchars($user['utilisation_principale']) ?></td>
             </tr>
         <?php endforeach; ?>
         </tbody>  
