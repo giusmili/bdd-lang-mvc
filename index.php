@@ -1,8 +1,8 @@
 <?php
-const style = "./css/main.css";
-require_once __DIR__ .'/model/Model.php';
+    const style = "./css/main.css";
+    require_once __DIR__ .'/model/Model.php';
 
-// $users = getUsers();
+    // $users = getUsers();
 
-require __DIR__ .'/view/view.php';
+    require __DIR__ .'/view/view.php';
 ?>
